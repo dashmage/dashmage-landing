@@ -1,0 +1,25 @@
+# The URL the site will be built for
+base_url = "https://dashmage.dev"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "sam"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+
+[extra]
+# Put all your custom variables here
+sam_menu = [
+    { text = "blog", link = "https://dashmage.bearblog.dev" },
+    { text = "email", link = "mailto:hi@dashmage.dev" },
+    { text = "github", link = "https://github.com/dashmage" },
+    { text = "linkedin", link = "https://www.linkedin.com/in/-ashley-james/" },
+]
