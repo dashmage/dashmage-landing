@@ -19,7 +19,8 @@ highlight_code = false
 # Put all your custom variables here
 sam_menu = [
     { text = "blog", link = "https://dashmage.bearblog.dev" },
-    { text = "email", link = "mailto:hi@dashmage.dev" },
     { text = "github", link = "https://github.com/dashmage" },
     { text = "linkedin", link = "https://www.linkedin.com/in/-ashley-james/" },
+    { text = "email", link = "mailto:hi@dashmage.dev" },
+    { text = "mastodon", link = "https://mastodon.social/@dashmage" },
 ]
